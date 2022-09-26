@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Thêm mới</title>
+  <title> New Tour</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -16,22 +16,22 @@
 <div class="container" style="width: 500px">
   <br>
   <br>
-  <h2>Thêm <b>Tour</b></h2>
+  <h2>Add <b>Tour</b></h2>
   <form style="width: 500px" [formGroup]="createForm" (ngSubmit)="create()">
     <div class="form-group">
-      <label >Tên Tour</label>
-      <input  class="form-control"  placeholder="Tên Tour" formControlName="title">
+      <label > Tour Name</label>
+      <input  class="form-control"  placeholder=" Tour Name" formControlName="title">
     </div>
     <div class="form-group">
-      <label >Giá</label>
-      <input  class="form-control"  placeholder="Nhập Giá" formControlName="price">
+      <label >Price</label>
+      <input  class="form-control"  placeholder="Price" formControlName="price">
     </div>
     <div class="form-group">
-      <label >Mô Tả</label>
-      <textarea style="height: 200px"   class="form-control"  placeholder="Nhập mô tả" formControlName="description"></textarea>
+      <label >description</label>
+      <textarea style="height: 200px"   class="form-control"  placeholder="description" formControlName="description"></textarea>
     </div>
 
-    <button type="submit" class="btn btn-primary" style="margin-right: 10px">Thêm mới</button>
-    <a routerLink="" type="submit" class="btn btn-info">Hủy</a>
+    <button type="submit" class="btn btn-primary" style="margin-right: 10px">Create</button>
+    <a routerLink="" type="submit" class="btn btn-info">Cancel</a>
   </form>
 </div>

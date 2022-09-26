@@ -8,7 +8,7 @@ import { ShowComponent } from './tour/show/show.component';
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {ReactiveFormsModule} from "@angular/forms";
 import { DeleteComponent } from './tour/delete/delete.component';
-import { SingletourComponent } from './tour/singletour/singletour.component';
+
 
 @NgModule({
   declarations: [
@@ -16,8 +16,7 @@ import { SingletourComponent } from './tour/singletour/singletour.component';
     EditComponent,
     CreateComponent,
     ShowComponent,
-    DeleteComponent,
-    SingletourComponent
+    DeleteComponent
   ],
   imports: [
     BrowserModule,

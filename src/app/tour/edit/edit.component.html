@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Sửa tour</title>
+  <title>EDIT tour</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -12,23 +12,23 @@
 </head>
 <div class="container" style="width: 500px">
   <br>
-  <h2>Sửa Tour</h2>
+  <h2>EDIT Tour</h2>
   <form style="width: 500px" [formGroup]="editForm" (ngSubmit)="edit()">
     <div class="form-group">
-      <label >Tên Tour</label>
-      <input  class="form-control"  placeholder="Nhập tên tour" formControlName="title">
+      <label >Tour Name </label>
+      <input  class="form-control"  placeholder="Tour Name" formControlName="title">
     </div>
     <div class="form-group">
-      <label >Giá</label>
-      <input  class="form-control"  placeholder="Nhập Giá" formControlName="price">
+      <label >Price</label>
+      <input  class="form-control"  placeholder=" Price" formControlName="price">
     </div>
     <div class="form-group">
-      <label >Mô Tả</label>
-      <textarea style="height: 200px" class="form-control"  placeholder="Nhập mô tả" formControlName="description"></textarea>
+      <label >Description</label>
+      <textarea style="height: 200px" class="form-control"  placeholder="Description" formControlName="description"></textarea>
     </div>
 
-    <button type="submit" class="btn btn-warning" style="margin-right: 10px">Sửa</button>
-    <a routerLink=""  class="btn btn-info">Hủy</a>
+    <button type="submit" class="btn btn-warning" style="margin-right: 10px">Edit</button>
+    <a routerLink=""  class="btn btn-info">Cancel</a>
   </form>
 </div>
 
